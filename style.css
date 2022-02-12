@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.main h1 {
+  color: blue;
+  font-size: 60px;
+}
+
+header .main h2 {
+  color: red;
+}
+
+.btn {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+}
+/*# sourceMappingURL=style.css.map */

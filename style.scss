@@ -1,0 +1,34 @@
+@import "margin";
+// @use _margin.scss;
+
+$mainFont:'Trebuchet MS', sans-serif;
+$primaryColor: blue;
+$primaryColor2: red;
+$bigFontSize: 60px;
+
+header{
+    font-family: $mainFont;
+}
+
+.main h1{
+    color: $primaryColor;
+    font-size: $bigFontSize;
+}
+
+// NESTING....
+header {
+    .main{
+        h2 {
+            color: $primaryColor2;
+        }
+    }
+}
+
+// NESTING.... PROPERIES
+.btn {
+    font: {
+        family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        size: 40px;
+        weight: 900; 
+    }
+}
