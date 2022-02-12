@@ -5,6 +5,7 @@ $mainFont:'Trebuchet MS', sans-serif;
 $primaryColor: blue;
 $primaryColor2: red;
 $bigFontSize: 60px;
+$smallFontSize: 10px;
 
 header{
     font-family: $mainFont;
@@ -30,5 +31,49 @@ header {
         family: Arial, "Helvetica Neue", Helvetica, sans-serif;
         size: 40px;
         weight: 900; 
+    }
+}
+
+// MIXIN AND INCLUDE
+@mixin header3 {
+    color: $primaryColor;
+    font-size: $bigFontSize;
+    font-weight: 100;
+    border: 2px solid black;
+}
+
+@mixin header3second {
+    background-color: aqua;
+}
+
+.main {
+    h3 {
+        @include header3;
+        @include header3second;
+        width: 30%;
+    }
+}
+
+// PASSING VARIABLES TO A MIXIN
+@mixin bordered($color, $width) {
+    border: $width solid $color;
+}
+
+.main {
+    h4 {
+        @include bordered(blue, 1px);
+    }
+}
+
+// DEFAULT VALUES FOR MIXIN
+@mixin bordered2($color2: red, $borderWidth:10px) {
+    border: $borderWidth double $color2;
+}
+
+.main {
+    h5 {
+        @include bordered2($color2:green);
+        font-size: $bigFontSize;
+        width: 40%;
     }
 }
