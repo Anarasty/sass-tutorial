@@ -1,0 +1,19 @@
+%btn {
+    text-decoration: none;
+    padding: 20px;
+    line-height: 200px;
+    border: 5px solid $light-blue;
+    border-radius: 20px
+}
+
+.btn-primary {
+    @extend %btn;
+    color: $light-blue;
+    font-weight: 900;
+    background-color: lighten($dark-blue, 10%);
+}
+.btn-secondary {
+    @extend %btn;
+    background-color: $light-blue;
+    color: $dark-blue;
+}
