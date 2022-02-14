@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #6ffaff;
+  background-color: #cfcfcf;
+}
+
+.card {
+  background-color: #00013b;
+  font-size: 30px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.container nav ul li {
+  padding: 20px;
+}
+
+.container nav ul li a {
+  text-decoration: none;
+  color: #6ffaff;
+}
+
+.container nav ul li a:hover {
+  color: white;
+}
+
+.container-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-content h1 {
+  font-size: 50px;
+  margin: 40px auto;
+  letter-spacing: 5px;
+}
+
+.container-content img {
+  width: 50%;
+}
+/*# sourceMappingURL=style.css.map */

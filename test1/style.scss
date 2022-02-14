@@ -1,0 +1,64 @@
+@import "_config";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $primary-font;
+  color: $light-blue;
+  background-color: $background-primary-color;
+}
+
+.card {
+  background-color: $dark-blue;
+  font-size: 30px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 50px;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    ul {
+      display: flex;
+      list-style: none;
+
+      li {
+        padding: 20px;
+
+        a {
+          text-decoration: none;
+          color: $light-blue;
+        }
+        a:hover {
+          color: $white;
+        }
+      }
+    }
+  }
+
+  &-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      font-size: 50px;
+      margin: 40px auto;
+      letter-spacing: 5px;
+    }
+
+    img {
+      width: 50%;
+    }
+  }
+}
