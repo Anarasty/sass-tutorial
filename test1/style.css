@@ -2,18 +2,22 @@
   text-decoration: none;
   padding: 20px;
   line-height: 200px;
-  border: 5px solid #6ffaff;
+  border: 5px solid #24f8ff;
   border-radius: 20px;
 }
 
+.btn-primary:hover, .btn-secondary:hover {
+  background-color: white;
+}
+
 .btn-primary {
-  color: #6ffaff;
+  color: #24f8ff;
   font-weight: 900;
   background-color: #00026e;
 }
 
 .btn-secondary {
-  background-color: #6ffaff;
+  background-color: #24f8ff;
   color: #00013b;
 }
 
@@ -26,7 +30,7 @@
 
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: #6ffaff;
+  color: #24f8ff;
   background-color: #cfcfcf;
 }
 
@@ -39,6 +43,7 @@ body {
   width: 80%;
   margin: 0 auto;
   padding: 0 50px;
+  color: #24f8ff;
 }
 
 .container nav {
@@ -66,7 +71,7 @@ body {
 
 .container nav ul li a {
   text-decoration: none;
-  color: #6ffaff;
+  color: #24f8ff;
 }
 
 .container nav ul li a:hover {
