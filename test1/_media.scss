@@ -1,26 +1,25 @@
-
-@media screen and (max-width:768px){
-    .container {
-        nav {
-            flex-direction: column;
-        }
-
-        &-content {
-            flex-wrap: wrap;
-
-            h1 {
-                font-size: 40px;
-            }
-            p {
-                font-size: 26px;
-            }
-            img {
-                width: 100%;
-            }
-        }
+@media screen and (max-width: 768px) {
+  .container {
+    nav {
+      flex-direction: column;
     }
 
-    %btn {
-        font-size: 20px;
+    &-content {
+      flex-wrap: wrap;
+
+      h1 {
+        font-size: 40px;
+      }
+      p {
+        font-size: 26px;
+      }
+      img {
+        width: 100%;
+      }
     }
+  }
+
+  %btn {
+    font-size: 20px;
+  }
 }

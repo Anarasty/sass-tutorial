@@ -1,4 +1,5 @@
-.btn-primary, .btn-secondary {
+.btn-primary,
+.btn-secondary {
   text-decoration: none;
   padding: 20px;
   line-height: 200px;
@@ -6,7 +7,8 @@
   border-radius: 20px;
 }
 
-.btn-primary:hover, .btn-secondary:hover {
+.btn-primary:hover,
+.btn-secondary:hover {
   background-color: white;
 }
 
@@ -25,7 +27,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -52,11 +54,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .container nav ul {
@@ -85,11 +87,11 @@ body {
   display: flex;
   height: 100%;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .container-content h1 {
@@ -106,12 +108,12 @@ body {
   .container nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .container-content {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .container-content h1 {
     font-size: 40px;
@@ -122,7 +124,8 @@ body {
   .container-content img {
     width: 100%;
   }
-  .btn-primary, .btn-secondary {
+  .btn-primary,
+  .btn-secondary {
     font-size: 20px;
   }
 }
